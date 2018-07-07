@@ -10,7 +10,24 @@
             padding: 0px;
             margin: 0px;
         }
+        p{
+            border: solid 1px wheat;
+            /* Make a block element an inline element */
+            display:inline;
+        }
+        span{
+            border:solid 1px yellow;
+            /* Make a inline element an block element */
+            display: block;
+            margin: 1px;
+        }
         
+        img{
+            width: 400px;
+            height: 600px;
+            /* Make image can not display */
+            display: none;
+        }
     </style>
 
 </head>
@@ -18,5 +35,12 @@
     <p>Test data</p>
     <p>Test data</p>
     <p>Test data</p>
+
+    <span>Test data</span>
+    <span>Test data</span>
+    <span>Test data</span>
+
+    <img src="../images/1.jpg" alt="">
+    <img src="../images/2.jpg" alt="">
 </body>
 </html>
