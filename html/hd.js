@@ -1,0 +1,1 @@
+alert('hd.js Hello');
