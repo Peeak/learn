@@ -1,2 +1,2 @@
 # learn
-前端开发同步代码
+Front-end development
