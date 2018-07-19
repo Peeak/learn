@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <script>
+        var x=prompt('Please enter first num.')*1;
+        var char=prompt('Please enter operator.');
+        var y=prompt('Please enter second num')*1;
+        var return_;
+        switch(char){
+            case '+':
+                return_= x+y;
+            break;
+            case '-':
+                return_= x-y; 
+            break;
+            case '*':
+                return_= x*y;
+            break;
+            case '/':
+                return_= x/y;
+            break;
+            default:
+                return_= 'Calculation failed.';
+            break;
+        }
+        document.write(return_);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
